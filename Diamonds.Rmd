@@ -8,6 +8,8 @@ date: "2024-08-12"
 ```{r}
 library(ggplot2)
 
+
+
 ggplot(diamonds, aes(x = color)) +
   geom_bar()
 
