@@ -6,8 +6,7 @@ date: "2024-08-12"
 
 
 ```{r}
-library(tidyverse)
-library(ggplot2)
+
 
 
 
