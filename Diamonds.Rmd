@@ -1,0 +1,19 @@
+---
+title: "Diamonds"
+output: html_document
+date: "2024-08-12"
+---
+
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+
+
+
+diamonds %>% 
+  ggplot(aes(x = color)) +
+  geom_bar()
+
+```
+
