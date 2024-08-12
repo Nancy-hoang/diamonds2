@@ -10,8 +10,8 @@ date: "2024-08-12"
 
 
 
-diamonds %>% 
-  ggplot(aes(x = color)) +
+
+  ggplot(diamonds, aes(x = color)) +
   geom_bar()
 
 ```
